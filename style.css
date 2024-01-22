@@ -1,0 +1,131 @@
+*{
+	font-family: 'Hanken Grotesk', sans-serif;
+}
+body{
+	background-color: salmon;
+}
+.container{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+.box-1{
+	background-color: #4534F2FF;
+	width: 450px;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 30px;
+	position: relative;
+}
+.number-alert{
+	background-image: linear-gradient(0, #4534F2FF 0, #4534F2FF 10%, #000005 100%);
+	padding: 25px 100px;
+	border-radius: 100%;
+}
+	.menssage h1{
+		font-size: 4.6em;
+		color: white;
+		text-align: center;
+	}
+	.menssage h5{
+		font-size: 0.7em;
+		color: white;
+		filter: opacity(60%);
+		text-align: center;
+	}
+	.text-top{
+		font-size: 1.3em;
+		color: white;
+		filter: opacity(60%);
+	}
+	.text-bottom{
+		width: 300px;
+		text-align: center;
+		color: white;
+	}
+	.text-bottom h1{
+		font-size: 2em;
+	}
+	.text-bottom p{
+		font-size: 1.3em;
+		color: white;
+		filter: opacity(60%);
+	}
+.box-2{
+	width: 430px;
+	height: 550px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	margin-left: -30px;
+	border-radius: 0 30px 30px 0;
+}
+	.text-top-2{
+		text-align: left;
+		margin-left: 50px;
+	}
+	.text-center{
+		display: flex;
+		flex-direction: column;
+	}
+	.text-staf{
+		display: flex;
+		justify-content: flex-start;
+		margin: 20px 0 10px 40px;
+		width: 370px;
+	}
+		.text-staf img{
+			margin-top: 16px;
+		}
+		.text-staf h2{
+			width: 100px;
+		}
+		.text-staf p{
+			margin-left: 150px;
+			margin-top: 25px;
+			font-weight: 700;
+			color: black;
+		}
+	.text-bottom-2{
+		width: 370px;
+		height: 70px;
+		margin-left: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+		button{
+			background-color: #1d1160;
+			color: white;
+			font-size: 1.3em;
+			width: 370px;
+			height: 70px;
+			border-radius: 50px;
+		}
+			button:hover{
+				background-color: #662d91;
+				cursor: pointer;
+			}
+@media (max-width: 830px){
+	.container{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+	.box-2{
+	width: 450px;
+	height: 580px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	margin-top:-30px;
+	margin-left: 1px;
+	border-radius: 0 0 30px 30px;
+}
+	.text-top-2{
+		margin-top: 20px;
+	}
+}		
